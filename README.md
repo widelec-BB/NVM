@@ -5,7 +5,7 @@ This is a small utility for downloading YouTube subtitles
 and converting them to *.srt format.
 
 NVM uses Grzegorz Kraszewski's libvstring library with some
-changes made by Filip "widelec" Maryja�ski.
+changes made by Filip "widelec" Maryjański.
 
 Icon created by Konrad "recedent" Czuba.
 

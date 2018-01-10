@@ -1,5 +1,5 @@
 /*
-** Copyright (c) 2012-2014, Filip "widelec" MaryjaÅ„ski
+** Copyright (c) 2012-2014, Filip "widelec" Maryjanski
 ** All rights reserved.
 **
 ** Redistribution and use in source and binary forms, with or without
@@ -79,7 +79,7 @@ static IPTR ApplicationNew(Class *cl, Object *obj, struct opSet *msg)
 	obj = (Object*)DoSuperNew(cl, obj,
 	                 MUIA_Application_Author, (IPTR)APP_AUTHOR,
 	                 MUIA_Application_Base, (IPTR)APP_BASE,
-	                 MUIA_Application_Copyright, (IPTR)"©" APP_CYEARS " " "BlaBla group",
+	                 MUIA_Application_Copyright, (IPTR)"ï¿½" APP_CYEARS " " "BlaBla group",
 	                 MUIA_Application_Description, (IPTR)APP_DESC,
 	                 MUIA_Application_Title, (IPTR)APP_NAME,
 	                 MUIA_Application_Version, (IPTR)APP_VER,

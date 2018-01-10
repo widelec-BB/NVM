@@ -1,5 +1,5 @@
 Short:          YouTube subtitles downloader
-Author:         Filip "widelec" Maryjañski
+Author:         Filip "widelec" Maryjanski
 Type:           network/tools
 Version:        0.9
 Architecture:   ppc-morphos
@@ -9,7 +9,7 @@ This is a small utility for downloading YouTube subtitles
 and converting them to *.srt format.
 
 NVM uses Grzegorz Kraszewski's libvstring library with some
-changes made by Filip "widelec" Maryjañski.
+changes made by Filip "widelec" Maryjanski.
 
 What do you need:
 ----------------
