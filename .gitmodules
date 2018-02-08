@@ -1,0 +1,3 @@
+[submodule "libvstring"]
+	path = libvstring
+	url = https://github.com/widelec-BB/libvstring.git
