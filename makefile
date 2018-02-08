@@ -22,7 +22,7 @@ OBJDIR  = o/
 PROJECT = $(OUTDIR)$(OUTFILE)
 
 # COMPILER #
-CC = gcc
+CC = ppc-morphos-gcc
 CWARNS = -Wall -Wno-pointer-sign -Wpointer-arith
 CDEFS  = $(VERSION) -DUSE_INLINE_STDARG -D__NOLIBBASE__
 # -D__DEBUG__
@@ -32,7 +32,7 @@ CLIBS  = -Ilibvstring
 COMPILE = $(CC) $(TARGET) $(CWARNS) $(CDEFS) $(CFLAGS) $(CLIBS)
 
 # LINKER #
-LD = gcc
+LD = ppc-morphos-gcc
 
 LWARNS =
 LDEFS  =
